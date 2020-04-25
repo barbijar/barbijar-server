@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "health",
+  "info": {
+    "name": "health"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
