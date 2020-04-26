@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/health",
-      "handler": "health.find",
+      "path": "/prices",
+      "handler": "prices.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/health/count",
-      "handler": "health.count",
+      "path": "/prices/count",
+      "handler": "prices.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/health/:id",
-      "handler": "health.findOne",
+      "path": "/prices/:id",
+      "handler": "prices.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/health",
-      "handler": "health.create",
+      "path": "/prices",
+      "handler": "prices.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/health/:id",
-      "handler": "health.update",
+      "path": "/prices/:id",
+      "handler": "prices.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/health/:id",
-      "handler": "health.delete",
+      "path": "/prices/:id",
+      "handler": "prices.delete",
       "config": {
         "policies": []
       }

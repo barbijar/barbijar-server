@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "commerce",
+  "info": {
+    "name": "commerce"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "commerceName": {
+      "type": "string",
+      "required": false
+    },
+    "commerceAddress": {
+      "type": "string"
+    },
+    "area": {
+      "type": "string"
+    },
+    "web": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "delivery": {
+      "type": "boolean"
+    },
+    "province": {
+      "model": "provinces"
+    },
+    "prices": {
+      "collection": "prices",
+      "via": "commerce"
+    },
+    "contact": {
+      "model": "contact"
+    }
+  }
+}

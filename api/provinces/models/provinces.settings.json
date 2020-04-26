@@ -1,21 +1,15 @@
 {
   "kind": "collectionType",
-  "collectionName": "health",
+  "collectionName": "provinces",
   "info": {
-    "name": "health"
+    "name": "provinces"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "title": {
-      "type": "string"
-    },
-    "desc": {
-      "type": "richtext"
-    },
-    "link": {
+    "province_name": {
       "type": "string"
     }
   }

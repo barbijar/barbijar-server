@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "contact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "main_phone": {
+      "type": "string"
+    },
+    "secundary_phone": {
+      "type": "string"
+    },
+    "terciary_phone": {
+      "type": "string"
+    },
+    "contact_name": {
+      "type": "string"
+    },
+    "commerce": {
+      "model": "commerce"
+    }
+  }
+}

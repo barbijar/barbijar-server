@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `health` model.
+ * Lifecycle callbacks for the `prices` model.
  */
 
 module.exports = {
